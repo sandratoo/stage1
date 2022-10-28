@@ -9,7 +9,10 @@ def get_all():
         "slackUsername": "sandratoo", 
         "backend": True,
         "age": 28,
-        "bio": "Hi, my name sandra, a curious and self-startind developer."
+        "bio": "Hi, my name sandra, a curious and self-starting developer."
     })
     
     return all
+
+if __name__ == "__main__":
+    app.run()

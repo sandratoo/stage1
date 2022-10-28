@@ -15,7 +15,7 @@ class getall(Resource):
         
         return all
 
-api.add_resource(getall,"/get")
+api.add_resource(getall,"/")
 
 if __name__ == "__main__":
     app.run()
